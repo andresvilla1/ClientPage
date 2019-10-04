@@ -67,6 +67,7 @@ p {
 	align-items: center;
 	justify-content: center;
 }
+?* this media query is used to make the page and pictures reappear when expanding to its initial size/*
 @media only screen and (max-width: 575px) {
 	body {
 	width: 100%;
