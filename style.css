@@ -12,6 +12,7 @@ body {
 .bat3 {content: url("images/flower.png");}
 .bat4 {content: url("images/flowertower.png");}
 
+/*the padding code here is to add a box that keeps the text inside of it once the size of the website changes./*
 p {
   font-family: 'Nanum Pen Script', cursive, sans-serif;
   font-size: 27px;
@@ -100,6 +101,8 @@ p {
 	.bat3 {content: url("images/textheart.png");}
 	.bat4 {content: url("images/textwall.png");}
 }
+
+/*the display:none code is equal to making the picture (or in this case the div) disappears when media query is hit /*
 
 @media only screen and (max-width: 575px) {
 div.box3 {
