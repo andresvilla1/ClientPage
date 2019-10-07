@@ -67,7 +67,7 @@ p {
 	align-items: center;
 	justify-content: center;
 }
-?* this media query is used to make the page and pictures reappear when expanding to its initial size/*
+/* this media query is used to make the page and pictures reappear when expanding to its initial size/*
 @media only screen and (max-width: 575px) {
 	body {
 	width: 100%;
@@ -97,6 +97,8 @@ p {
 p {
   font-size: 20px;
 }
+
+/* these are a classes that are named a certain name to call them out in the html code, where the html code uses the image source to display the picture*/
 	.bat1 {content: url("images/mompaint.png");}
 	.bat2 {content: url("images/butterpaint.png");}
 	.bat3 {content: url("images/textheart.png");}
