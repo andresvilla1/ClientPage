@@ -4,15 +4,13 @@ body {
 	height: 100%;
 	margin: 0;
 	display: block;
-	background-color: black;
+	background-color: blue;
 }
-
+/* When writing CSS classes U WANT TO DEFINE ITEMS THIS IMAGES GETTING DEFINED THAT WILL BE SWITCHED LATER */
 .bat1 {content: url("images/babyarm.png");}
 .bat2 {content: url("images/momwall.png");}
 .bat3 {content: url("images/flower.png");}
 .bat4 {content: url("images/flowertower.png");}
-
-/*the padding code here is to add a box that keeps the text inside of it once the size of the website changes.*/
 
 p {
   font-family: 'Nanum Pen Script', cursive, sans-serif;
@@ -57,7 +55,7 @@ p {
 	border-style: solid;
 	border-width: 2px;
 }
-
+/* KEEPS IMAGES IN CHECK WITH SIZING SO THAT THEY CAN BE FIXED TO CODERS LIKING FOR VIEWRS LIKING :) */
 .restric-img-size {
 	max-height: 85%; 
 	max-width: 85%;
@@ -68,9 +66,6 @@ p {
 	align-items: center;
 	justify-content: center;
 }
-
-/* this media query is used to make the page and pictures reappear when expanding to its initial size*/
-
 @media only screen and (max-width: 575px) {
 	body {
 	width: 100%;
@@ -79,9 +74,9 @@ p {
 	display: block;
 }
  .side{
-	width: 100%;
-	height:calc(100%/3);
-	display: flex;
+		width: 100%;
+		height:calc(100%/3);
+		display: flex;
   }
  .up {
 	width: 100%;
@@ -100,16 +95,12 @@ p {
 p {
   font-size: 20px;
 }
-
-/* these are a classes that are named a certain name to call them out in the html code, where the html code uses the image source to display the picture*/
-
 	.bat1 {content: url("images/mompaint.png");}
 	.bat2 {content: url("images/butterpaint.png");}
 	.bat3 {content: url("images/textheart.png");}
 	.bat4 {content: url("images/textwall.png");}
 }
-
-/*the display:none code is equal to making the picture (or in this case the div) disappears when media query is hit */
+/* When THE SCREEN HITS A CERTAIN BREAK POINT THAN ITLL CUT THE DIV DEFINED AS BOX3 OUT AND CHANGE THE LAYOPUT ONLY LAEVIN BOX 1 AND 2 */
 
 @media only screen and (max-width: 575px) {
 div.box3 {
