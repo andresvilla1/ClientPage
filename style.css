@@ -13,6 +13,7 @@ body {
 .bat4 {content: url("images/flowertower.png");}
 
 /*the padding code here is to add a box that keeps the text inside of it once the size of the website changes./*
+
 p {
   font-family: 'Nanum Pen Script', cursive, sans-serif;
   font-size: 27px;
@@ -67,7 +68,9 @@ p {
 	align-items: center;
 	justify-content: center;
 }
+
 /* this media query is used to make the page and pictures reappear when expanding to its initial size/*
+
 @media only screen and (max-width: 575px) {
 	body {
 	width: 100%;
@@ -76,9 +79,9 @@ p {
 	display: block;
 }
  .side{
-		width: 100%;
-		height:calc(100%/3);
-		display: flex;
+	width: 100%;
+	height:calc(100%/3);
+	display: flex;
   }
  .up {
 	width: 100%;
@@ -99,6 +102,7 @@ p {
 }
 
 /* these are a classes that are named a certain name to call them out in the html code, where the html code uses the image source to display the picture*/
+
 	.bat1 {content: url("images/mompaint.png");}
 	.bat2 {content: url("images/butterpaint.png");}
 	.bat3 {content: url("images/textheart.png");}
