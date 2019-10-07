@@ -12,7 +12,7 @@ body {
 .bat3 {content: url("images/flower.png");}
 .bat4 {content: url("images/flowertower.png");}
 
-/*the padding code here is to add a box that keeps the text inside of it once the size of the website changes./*
+/*the padding code here is to add a box that keeps the text inside of it once the size of the website changes.*/
 
 p {
   font-family: 'Nanum Pen Script', cursive, sans-serif;
@@ -69,7 +69,7 @@ p {
 	justify-content: center;
 }
 
-/* this media query is used to make the page and pictures reappear when expanding to its initial size/*
+/* this media query is used to make the page and pictures reappear when expanding to its initial size*/
 
 @media only screen and (max-width: 575px) {
 	body {
@@ -109,7 +109,7 @@ p {
 	.bat4 {content: url("images/textwall.png");}
 }
 
-/*the display:none code is equal to making the picture (or in this case the div) disappears when media query is hit /*
+/*the display:none code is equal to making the picture (or in this case the div) disappears when media query is hit */
 
 @media only screen and (max-width: 575px) {
 div.box3 {
